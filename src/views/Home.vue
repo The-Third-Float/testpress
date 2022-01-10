@@ -14,16 +14,23 @@
     <div class="spinner-box">
       <div class="blue-orbit leo">
       </div>
-
       <div class="green-orbit leo">
       </div>
-
       <div class="red-orbit leo">
       </div>
-
       <div class="white-orbit w1 leo"></div>
       <div class="white-orbit w2 leo"></div>
       <div class="white-orbit w3 leo"></div>
+    </div>
+    <div id="nav" style="bottom: 0;left: 50%;transform: translateX(-50%);position: absolute">
+      <router-link to="/home">首页</router-link> |
+      <router-link to="/gb">挚爱</router-link> |
+      <router-link to="/mcdh">大海</router-link> |
+      <router-link to="/nwt">你我</router-link> |
+      <router-link to="/sjynczc">苏家</router-link> |
+      <router-link to="/ssnhdn">三十</router-link> |
+      <router-link to="/swcfsfy">彩凤</router-link> |
+      <router-link to="/xkbklzdwp">外婆</router-link>
     </div>
   </div>
 </template>
@@ -43,7 +50,7 @@ export default defineComponent({
   position: absolute;
   height: 100vh;
   width: 100%;
-  background: url("gb.jpg") no-repeat center center fixed;
+  background: url("../assets/gb.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 .spinner-box {

@@ -33,7 +33,7 @@ const options = reactive({
   volume: 0.3, //默认音量大小
   control: true, //是否显示控制器
   title: '', //视频名称
-  src: "gb.mp4", //视频源
+  src: "src/assets/gb.mp4", //视频源
   poster: '', //封面
 })
 </script>
